@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+.limitar-secao {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* SEÇÃO CABEÇALHO */
+.cabecalho {
+    padding: 50px 0;
+    background-color: rgb(129, 129, 129);
+}
+
+.topo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(129, 129, 129);
+    gap: 10px;
+}
+
+.topo-nome {
+    padding: 10px 10px;
+    background-color: rgb(129, 129, 129);
+}
+
+.topo-nome p {
+    background-color: rgb(129, 129, 129);
+    font-size: 20px;
+    color: white;
+}
+
+.topo-nome p span {
+    background-color: rgb(129, 129, 129);
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.topo-link {
+    padding: 30px 10px;
+    background-color: rgb(129, 129, 129);
+}
+
+.topo-link p {
+    background-color: rgb(129, 129, 129);
+}
+
+.topo-link a {
+    background-color: rgb(129, 129, 129);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+.topo-link a:hover {
+    color: rgb(172, 172, 172);
+}
+/* SECAO APRESENTAÇÃO */
+.secao-sobre {
+    padding: 50px 0;
+}
+
+.secao-desc {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.desc-texto {
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex: 1 1 400px;
+}
+
+.desc-texto h1 {
+    font-size: 50px;
+}
+
+.desc-texto {
+    text-align: justify;
+}
+
+.desc-imagem {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 468px;
+    align-items: center;
+}
+
+.desc-imagem img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.desc-imagem a {
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.desc-imagem a:hover {
+    background-color: black;
+    color: white;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: rgb(223, 223, 223);
+}
+
+.projetos h2, .projetos p {
+    background-color: rgb(223, 223, 223);
+}
+
+.main {
+    background-color: rgb(223, 223, 223);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container { 
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: rgb(223, 223, 223);
+}
+
+.card-produto {
+    width:400px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+.container-imagem {
+    width: 400px;
+    height: 200px;
+}
+
+.container-imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.container-imagem img:hover {
+    box-shadow: 0px 0px 2px 3px gray;
+}
+
+.container-info {
+    padding: 0 10px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container-info h3 {
+    font-size: 15px;
+}
+
+.container-info small {
+    color: green;
+    font-weight: bold;
+}
+
+.certificados {
+    padding: 70px 20px;
+}
+
+.certificados h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.certificados p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.classe {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.classe img {
+    width: 150px;
+    height: 150px;
+}
+
+.secao-contato {
+    padding: 20px 20px 0px 20px;
+    text-align:center;
+    background-color: rgb(223, 223, 223)
+}
+
+.secao-contato h4 {
+    background-color: rgb(223, 223, 223)
+}
+
+.secao-contato p, .secao-contato a {
+    background-color: rgb(223, 223, 223)
+}
+
+.classe-contato {
+    display:Flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900;
+    padding: 20px 0px 50px 0px;
+    background-color: rgb(223, 223, 223)
+}
+
+.classe-contato img {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(223, 223, 223);
+    opacity: 50%;
+    margin: 0px 10px;
+}
+
+.secao-contato p span {
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
